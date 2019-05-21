@@ -5,6 +5,7 @@
 ### Bug fixes
 
 1. AzCopy v10 now outputs a sensible error & warning when attempting to authenticate a storage account business-to-business
+1. Enabled copying to/from page/block/append blob to another blob of a different type
 
 ## Version 10.1.2
 
