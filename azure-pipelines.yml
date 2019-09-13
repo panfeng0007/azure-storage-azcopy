@@ -1,14 +1,13 @@
 trigger:
   branches:
     include:
-      - dev
-      - master
+      - fp_list_specific_folder
 
-pr:
-  branches:
-    include:
-      - dev
-      - master
+# pr:
+#   branches:
+#     include:
+#       - dev
+#       - master
 
 jobs:
   - job: Linux_and_Windows_Builds
